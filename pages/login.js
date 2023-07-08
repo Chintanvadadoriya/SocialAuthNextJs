@@ -13,10 +13,10 @@ export default function Login(){
 
     // Google Handler function
     async function handleGoogleSignin(){
-        signIn('google', { callbackUrl : "https://social-auth-next-js.vercel.app/profile"})
+        signIn('google', { callbackUrl : "/"})
     }
     async function handleFacebookSignin(){
-        signIn('facebook', { callbackUrl : "https://social-auth-next-js.vercel.app/profile"})
+        signIn('facebook', { callbackUrl : "/"})
     }
     return (
         <Layout>
